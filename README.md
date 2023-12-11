@@ -6,6 +6,9 @@
 Для работы с программой нужно ввести в консоль 
 
 
+
 ```bash
+docker build -t test-prog .
+
  docker run -p 8501:8501 test-prog
 ```
